@@ -34,8 +34,8 @@ my_src_files_arm := \
 my_cflags_intel := -DPNG_INTEL_SSE_OPT=1
 
 my_src_files_intel := \
-    contrib/intel/intel_init.c \
-    contrib/intel/filter_sse2_intrinsics.c
+    intel/intel_init.c \
+    intel/filter_sse2_intrinsics.c
 
 common_CFLAGS := -std=gnu89 -Wno-unused-parameter #-fvisibility=hidden ## -fomit-frame-pointer
 
